@@ -22,7 +22,7 @@ export const paths = {
     },
     img: {
         src: 'src/img/**/*.{gif,png,jpg}',
-        dist: './'
+        dist: './img/'
     },
     fonts: {
         src: 'src/fonts/**/*.{woff,woff2}',
