@@ -1,101 +1,56 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Front-end tool based on Gulp 4 & Webpack</title>
-        <link rel="stylesheet" href="styles/main.css">
-    </head>
-    <body>
-        <div id="snowflakeContainer">
-            <p class="snowflake">*</p>
+<html lang="hu">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boldog Születésnapot Réka! <3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <section class="section1">
+            <canvas id="canvas"></canvas>
+            <div class="l-container">
+                <p>Boldog Szülinapot Réka!
+                    <br>
+                    <span>🎁</span>
+                    <span>🎉</span>
+                    <span>😘</span>
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class="l-container">
+                <p>Utazzunk ide együtt tavasszal!</p>
+                <img src="https://res.cloudinary.com/zebulonedwardbubbel/image/upload/v1577268900/bergamo_1000x667_03_xqmqmp.jpg" alt="">
+                <img src="https://res.cloudinary.com/zebulonedwardbubbel/image/upload/v1577268900/bergamo_2_zaodcf.jpg" alt="">
+                <img src="https://res.cloudinary.com/zebulonedwardbubbel/image/upload/v1577268899/funicolare-bergamo-alta_ojpvff.jpg" alt="">
+                <img src="https://res.cloudinary.com/zebulonedwardbubbel/image/upload/v1577268900/piazza-vecchia_obmwdy.jpg" alt="">
+                <img src="https://res.cloudinary.com/zebulonedwardbubbel/image/upload/v1577277440/bergamo-alta-italy-upper-city-surrounded-venetian-walls-built-th-century-forms-historic-centre-72076403_rd3p3v.jpg" alt="">
+            </div>
+        </section>
+        <section>
+            <div class="l-container">
+            <p><a href="https://www.google.com/maps/place/Bergamo,+Province+of+Bergamo,+Italy/@45.693161,9.3869363,58558m/data=!3m1!1e3!4m5!3m4!1s0x47815111bc62ae73:0xd32fcb8f0be5a4d1!8m2!3d45.6982642!4d9.6772698" target="_blank">Bergamo</a>! Onnan aztán ide is elkirándulhatunk:</p>
+            <img src="https://res.cloudinary.com/zebulonedwardbubbel/image/upload/v1577268937/25753658870_a2252bcfce_h_gtdqu7.jpg" alt="">
+            <img src="https://res.cloudinary.com/zebulonedwardbubbel/image/upload/v1577268938/247182_36c2ffd82f8be3a27abaddbfd5ee6149_large_axvx27.jpg" alt="">
+            <img src="https://res.cloudinary.com/zebulonedwardbubbel/image/upload/v1577268937/iseo2_hbz8h2.jpg" alt="">
+            <p>
+                (<a href="https://www.google.com/maps/place/Lake+Iseo/@45.740759,9.8856226,11z/data=!3m1!4b1!4m5!3m4!1s0x47816188ad1435cd:0xd43c9cdee7909943!8m2!3d45.721871!4d10.0670398" target="_blank">Iseo tó</a>)
+            </p>
+            <span style="font-size: 18px;">Puszi: Adrika & Szabi</span>
+            <p style="font-size: 48px;">❤️</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="l-container">
+            <!-- <h2>footer</h2> -->
         </div>
-        
-<main class="l-main">
-    <div class="c-container">
-        <section class="c-hero">
-            <span class="c-hero__emoji">🎄 🎁  ️❄️</span>
-            <div class="c-hero__heading">
-                <span>🧦</span>
-                <h1 class="">Boldog<br>Karácsonyt Réka!<br>és nagyon Boldog Szülinapot!</h1>
-                <span>❤️</span>
-            </div>
-            <span class="c-hero__emoji">🎂 🎉 🍾</span>
-            <span class="c-hero__we"><strong>Puszi:</strong><br>
-            Adrika & Szabi
-            </span>
-        </section>
-        <section class="c-teaser">
-            <span class="c-teaser__text">Szép ajándék a sör. Egyébről nincs is szó? 🤔</span>
-        </section>
-        <section class="c-teaser">
-            <span class="c-teaser__text">Lentebb esetleg kiderül, van-e még egyéb.</span>
-        </section>
-        <section class="c-teaser">
-            <span class="c-teaser__text">Még kicsit lentebb derül ki.</span>
-        </section>
-        <section class="c-carousel">
-            <div class="c-container">
-                <div class="c-carousel__inner">
-                    <div class="c-carousel__cell">
-                        <img src="img/1498861243762.jpg" alt="">
-                    </div>
-                    <div class="c-carousel__cell">
-                        <img src="img/1498862013947.jpg" alt="">
-                    </div>
-                    <div class="c-carousel__cell">
-                        <img src="img/1498864168901.jpg" alt="">
-                    </div>
-                    <div class="c-carousel__cell">
-                        <img src="img/1498861402254.jpg" alt="">
-                    </div>
-                    <div class="c-carousel__cell">
-                        <img src="img/1498861206508.jpg" alt="">
-                    </div>
-                    <div class="c-carousel__cell">
-                        <img src="img/1498869457966.jpg" alt="">
-                    </div>
-                    <div class="c-carousel__cell">
-                        <img src="img/1505986885959.jpg" alt="">
-                    </div>
-                    <div class="c-carousel__cell">
-                        <img src="img/46666693_115157239520497_685472489792458718_n.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="c-teaser">
-            <span class="c-teaser__text">Megvan már így? 🙂</span>
-        </section>
-        <section class="c-teaser">
-            <span class="c-teaser__text">Nos, erre gondoltunk:</span>
-        </section>
-        <section class="c-info">
-            <div class="c-container">
-                <div class="c-info__inner">
-                    <div class="c-info__row">
-                        <span><strong>Hol?</strong></span>
-                        <span>Antwerpen</span>
-                    </div>
-                    <div class="c-info__row">
-                        <span><strong>Mi?</strong></span>
-                        <ul>
-                            <li>Retúr repjegy CPH - CRL (Brussels Charleroi) között</li>
-                            <li>Charleroi - Antwerpen busz- és vontjegy</li>
-                            <li>2 éjszaka vmi booking.com-os szálláson, Adrikával és velem. Köszösen választjuk ki a kérót.</li>
-                        </ul>
-                    </div>
-                    <div class="c-info__row">
-                        <span><strong>Mikor?</strong></span>
-                        <span>Együtt döntjük el, de valamikor április vége - május eleje tök jó lehet. Döntsünk mihamarabb!</span>
-                    </div>
-                </div>
-                <span class="c-info__heart">❤️</span>
-            </div>
-        </section>
-    </div>
-</main>
-
-        <script src="js/bundle.js"></script>
-    </body>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
 </html>

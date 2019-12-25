@@ -1,0 +1,176 @@
+/* reset */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, main {
+    display: block;
+}
+
+html, body, form, fieldset, h1, h2, h3, h4, h5, h6, p, pre, blockquote, ul, ol, li, dl, address {
+    margin: 0px;
+    padding: 0px;
+}
+ul, ol {
+    list-style: none;
+}
+:link, :visited {
+    /* text-decoration: none; */
+}
+img, fieldset, a img, :link img, :visited img {
+    border: none;
+}
+label[for], button {
+    cursor: pointer;
+}
+table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+img {
+    max-width: 100%;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/* box-sizing */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* sticky footer */
+body,
+html {
+    /* height: 100%; */
+}
+
+body {
+    /* display: flex;
+    flex-direction: column; */
+}
+
+header,
+footer {
+    flex: none;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* custom properties */
+:root {
+    --base-font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    --base-font-size: 16px;
+    --base-line-height: 1.5;
+    --base-text-color: #4d4d4d;
+    --content-width: 960px;
+}
+
+/* page */
+html {
+    margin: 0;
+    /* min-height: 100%; */
+    overflow-y: scroll;
+    font-family: var(--base-font-family);
+    font-size: var(--base-font-size);
+    line-height: var(--base-line-height);
+}
+
+/* body */
+body {
+    /* height: 100%; */
+    /* min-height: 100vh; */
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    color: var(--base-text-color);
+    -moz-osx-font-smoothing: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* container */
+.l-container {
+    width: 100%;
+    max-width: var(--content-width);
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1rem;
+}
+
+html {
+    background-image: linear-gradient(to bottom, skyblue, dodgerblue);
+}
+
+body {
+    margin: 0;
+    /* outline: 10px solid purple;
+    outline-offset: -10px; */
+    color: #fff;
+}
+
+main {
+    overflow: hidden;
+}
+
+#canvas {
+    /* outline: 10px dashed red;
+    outline-offset: -5px; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.section1 {
+    min-height: 100vh;
+}
+
+.section1 .l-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 p {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.25;
+    text-align: center;
+}
+
+.section1 span {
+    line-height: 2;
+}
+
+.l-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img + img {
+    margin-top: 1rem;
+}
+
+img:last-of-type {
+    margin-bottom: 24px;
+}
+
+p, a {
+    color: #fff;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 600px;
+    margin-bottom: 24px;
+}
